@@ -10,7 +10,7 @@ services:
             - "80:80"
         volumes:
             - ./client:/usr/src/app
-        depends_on:
+        depends_on: 
             - backend
     backend:
         container_name: golang_backendaa 
